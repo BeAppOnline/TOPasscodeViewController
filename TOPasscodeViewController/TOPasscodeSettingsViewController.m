@@ -150,7 +150,7 @@ const CGFloat kTOPasscodeKeypadMaxHeight = 330.0f;
     self.optionsButton.titleLabel.font = [UIFont systemFontOfSize:15.0f];
     [self.optionsButton sizeToFit];
     [self.optionsButton addTarget:self action:@selector(optionsCodeButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:self.optionsButton];
+    //[self.view addSubview:self.optionsButton];
 
     // Add callbacks for the keypad view
     self.keypadView.numberButtonTappedHandler = ^(NSInteger number) {
